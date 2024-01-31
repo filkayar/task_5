@@ -134,7 +134,7 @@ def t6(data):
     survived_age_freq = survived_ages.value_counts().sort_index()
     died_age_freq = died_ages.value_counts().sort_index()
     print("Таблица частот возрастов выживших:\n", survived_age_freq)
-    print("Таблица частот возрастов выживших:\n", died_age_freq)
+    print("Таблица частот возрастов погибших:\n", died_age_freq)
 
     # Построим гистограммы распределения возрастов выживших и погибших
     plt.figure(figsize=(17, 5))
